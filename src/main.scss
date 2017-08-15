@@ -1,0 +1,33 @@
+$baseColor: #eeeeee;
+$baseColorDark: #cccccc;
+$mainColor: #ffffff;
+$mainColorDark: #f8f8f8;
+$accentColor: #41b883;
+$accentColorDark: #2d7f5a;
+$linkColor: #6d95b8;
+$linkColorDark: #4d6982;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: $baseColor;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: $linkColor;
+}
